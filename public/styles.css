@@ -1,0 +1,52 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  background-image:url("3.jpg");
+  background-size: 100% 100%;
+  background-attachment: fixed;
+
+  display: flex;
+  align-items: center;
+
+  padding-bottom: 40px;
+
+}
+h1{margin: 0;}
+img{border-radius: 200px;border-style: solid;
+  height: 250px;width: 250px;}
+.form-signin {
+  width: 100%;
+  max-width: 330px;
+  padding: 1px;
+  margin: auto;
+  text-align: center;
+}
+
+input{margin-bottom: 5px;border-radius: 5px;height: 40px;width:300px;}
+
+.btn {
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  text-shadow: 0px 1px 0px #000000;
+  font-family: Georgia;
+  color: #2e282e;
+  font-size: 22px;
+  background: #fac150;
+  padding: 7px 20px 10px 20px;
+  border: solid #2b363d 2px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #fcf23c;
+  background-image: -webkit-linear-gradient(top, #fcf23c, #f0ded1);
+  background-image: -moz-linear-gradient(top, #fcf23c, #f0ded1);
+  background-image: -ms-linear-gradient(top, #fcf23c, #f0ded1);
+  background-image: -o-linear-gradient(top, #fcf23c, #f0ded1);
+  background-image: linear-gradient(to bottom, #fcf23c, #f0ded1);
+  text-decoration: none;
+}
